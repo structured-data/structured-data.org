@@ -1,0 +1,141 @@
+/* JSON-LD CSS */
+
+@font-face {
+font-family: "sketch-rockwell";
+src: url("SketchRockwell-Bold.ttf");
+}
+
+* {
+margin: 0;
+padding: 0;
+}
+
+html {
+}
+
+body {
+color: #333;
+background-color: #a7cb87;
+font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+font-size: 16px;
+}
+
+a {
+color: #3b5998;
+text-decoration: none;
+outline-style: none;
+}
+
+a:hover, a:active {
+text-decoration: underline;
+}
+
+h1 {
+font-size: 2.0em;
+font-family: "sketch-rockwell", Georgia, Serif;
+}
+
+p {
+margin: 10px 0;
+/*font-family: "Georgia", Times, serif;*/
+}
+
+.tagline {
+   font-style: italic;
+   font-family: Georgia, serif;
+   font-size: 2em;
+}
+
+.breadcrumbs {
+   margin: 12px 12px;
+}
+
+ul {
+margin: 0 2em;
+}
+
+dl {
+padding: 0.5em;
+}
+
+dt {
+clear: left;
+width: 200px;
+text-align: left;
+font-weight: bold;
+}
+
+dt:after {
+}
+
+dd {
+margin: 0 0 0 50px;
+padding: 0 0 0.5em 0;
+}
+
+.hidden {
+display: none;
+}
+
+.banner {
+float: left;
+}
+
+#header {
+position: relative;
+height: 80px;
+color: #fff;
+background-color: #55842c;
+}
+
+#header>div {
+width: 960px;
+margin: 0 auto;
+}
+
+#header h1 {
+position: relative;
+float: right;
+margin-top: 25px;
+margin-right: 25px;
+font-size: 32px;
+}
+
+#header a {
+color: #fff;
+}
+
+#content {
+max-width: 960px;
+margin: 0 auto;
+padding: 10px 10px;
+}
+
+#footer {
+margin: 20px auto 0;
+color: #333;
+border-top: 1px solid #ccc;
+}
+
+#footer p {
+margin: 10px;
+font-size: 0.8em;
+}
+
+#copyright {
+float: left;
+}
+
+#copyright a {
+color: #333;
+}
+
+#legal {
+float: right;
+}
+
+.box {
+margin-bottom: 20px;
+padding: 20px;
+border-bottom: 1px solid #ddd;
+}
