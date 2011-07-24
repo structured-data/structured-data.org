@@ -5,6 +5,12 @@ font-family: "sketch-rockwell";
 src: url("SketchRockwell-Bold.ttf");
 }
 
+@font-face {
+font-family: "calluna";
+src: url("Calluna-Regular.ttf");
+}
+
+
 * {
 margin: 0;
 padding: 0;
@@ -16,8 +22,8 @@ html {
 body {
 color: #333;
 background-color: #a7cb87;
-font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-font-size: 16px;
+font-family: "calluna", Georgia, serif;
+font-size: 1.25em;
 }
 
 a {
@@ -32,7 +38,7 @@ text-decoration: underline;
 
 h1 {
 font-size: 2.0em;
-font-family: "sketch-rockwell", Georgia, Serif;
+font-family: "sketch-rockwell", Helvetica, Arial, serif;
 }
 
 p {
@@ -95,10 +101,10 @@ margin: 0 auto;
 
 #header h1 {
 position: relative;
-float: right;
-margin-top: 25px;
-margin-right: 25px;
-font-size: 32px;
+float: left;
+margin-top: 15px;
+margin-left: 25px;
+font-size: 48px;
 }
 
 #header a {
