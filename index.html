@@ -21,19 +21,20 @@
      <h1>Structured Data on the Web</h1>
     </span> 
    </div> 
- 
-   <div id="content"> 
-    <div id="intro">
-     <p>More and more of the world's data is moving onto the Web. We want to
-     share, re-mix and use this data to build more awesome Web
-     applications. Using structured data technologies to mark up people, 
-     places, events, recipes, ratings, music, movies and products on the Web 
-     makes everybody's life easier. This site will help you 
-     learn about big data, the semantic web, and the practical application
-     of technologies such as Microformats, RDFa, Microdata and JSON-LD.</p>
+
+    <div class="lighter">
+     <div id="intro" class="content">
+      <p>More and more of the world's data is moving onto the Web. We want to
+      share, re-mix and use this data to build more awesome Web
+      applications. Using structured data technologies to mark up people, 
+      places, events, recipes, ratings, music, movies and products on the Web 
+      makes everybody's life easier. This site will help you 
+      learn about big data, the semantic web, and the practical application
+      of technologies such as Microformats, RDFa, Microdata and JSON-LD.</p>
+     </div>
     </div>
-    
-    <div id="learn">
+
+    <div id="learn" class="content">
      <h1>Learn</h1>
      <p>The three main technologies for publishing structured data in HTML
      are, in order of least to most functionality, Microformats, Microdata 
@@ -65,39 +66,53 @@
       and RDFa in JSON.</dd>
      </dl>
     </div>
-
-    <div id="play">
-     <h1>Play</h1>
-     <dl>
-      <dt>JSON-LD Playground</dt>
-      <dd>Learn more...</dd>
-      <dt>Microdata Live</dt>
-      <dd>Learn more...</dd>
-     </dl>
+    
+    <div class="lighter">
+     <div id="play" class="content">
+      <h1>Play</h1>
+      <dl>
+       <dt><a href="http://foolip.org/microdatajs/live/">Live Microdata</a></dt>
+       <dd>The Live Microdata Web App allows you to pick from a set of examples,
+       or type in HTML5+Microdata markup, and immediately see the result of 
+       your markup in JSON or TURTLE output.</dd>
+       <dt><a href="http://json-ld.org/playground/">JSON-LD Playground</a></dt>
+       <dd>The JSON-LD playground is a Web App that allows you to pick from a
+       set of JSON-LD examples, or type in JSON-LD markup, and immediately see
+       the result of your markup in compact, expanded, normalized or framed
+       JSON. It also supports TURTLE output.</dd>
+      </dl>
+     </div>
     </div>
 
-    <div id="publish">
+    <div id="publish" class="content">
      <h1>Publish</h1>
      <dl>
-      <dt>Data Linting</dt>
-      <dd>Learn more...</dd>
-     </dl>
-    </div>
-
-    <div id="debug">
-     <h1>Debug</h1>
-     <dl>
-      <dt>Data Linting</dt>
-      <dd>Learn more...</dd>
+      <dt><a href="http://linter.structured-data.org/">Data Linter</a></dt>
+      <dd>The Data Linter can be used to check your Microdata, or RDFa input. 
+      It will provide warnings and hints if your markup is not valid.
+      </dd>
+       <dt><a href="http://www.w3.org/2007/08/pyRdfa/">RDFa 1.0 Distiller</a></dt>
+       <dd>The RDFa distiller processes RDFa 1.0 input and produces output in
+       a variety of RDF formats.</dd>
+       <dt><a href="http://www.w3.org/2007/08/pyRdfa/Shadow.html">RDFa 1.1 Shadow Distiller</a></dt>
+       <dd>The RDFa shadow distiller processes either RDFa 1.0 or RDFa 1.1 input
+       and produces output in a variety of RDF formats.</dd>
+       <dt><a href="http://json-ld.org/playground/">JSON-LD Playground</a></dt>
+       <dd>The JSON-LD playground processes text or URL input and will show
+       you the data that will be extracted from your input.
+       </dd>
      </dl>
     </div>
 
    <div id="footer"> 
-    <p id="copyright"> 
-     Website content released under a <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution Share-Alike license</a> except where an alternate is specified.
+    <p class="content"> 
+     Website content released under a <a rel="cc:license license" 
+     href="http://creativecommons.org/licenses/by-sa/3.0/">
+     Creative Commons Attribution Share-Alike license</a> except where an 
+     alternate is specified.
     </p> 
    </div> 
-  </div> 
+
  </body> 
 </html>
 
